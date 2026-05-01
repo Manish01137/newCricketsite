@@ -6,7 +6,7 @@ import { predictions, IMG } from "@/lib/data";
 import { Clock3, Sparkles } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Dream11 Fantasy Tips — CrickPulse",
+  title: "Dream11 Fantasy Tips — khelooyar2",
   description:
     "Analyst-built Dream11 XIs with Captain, differential, and fade calls — an hour before every lock-in.",
 };

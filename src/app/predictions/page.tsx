@@ -5,7 +5,7 @@ import { predictions, IMG } from "@/lib/data";
 import { Clock3, TrendingUp } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Daily Match Predictions — CrickPulse",
+  title: "Daily Match Predictions — khelooyar2",
   description:
     "Every prediction with reasoning, pitch read, and a 30-day accuracy ledger.",
 };

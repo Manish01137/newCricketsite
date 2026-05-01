@@ -92,7 +92,7 @@ export function Footer() {
 
         <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-[var(--border)] pt-6 text-xs text-muted sm:flex-row sm:items-center">
           <p>
-            © {new Date().getFullYear()} CrickPulse Media. All match data
+            © {new Date().getFullYear()} khelooyar2 Media. All match data
             shown is illustrative. Not a gambling service.
           </p>
           <div className="flex gap-5">

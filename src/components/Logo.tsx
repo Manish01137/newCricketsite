@@ -7,7 +7,7 @@ export function Logo({ className = "" }: { className?: string }) {
       </span>
       <div className="leading-none">
         <span className="block font-display text-[1.3rem] tracking-tight text-text">
-          Crick<span className="italic text-[var(--amber)]">Pulse</span>
+          khelooyar<span className="italic text-[var(--amber)]">2</span>
         </span>
         <span className="mt-0.5 block text-[9px] font-medium uppercase tracking-[0.22em] text-muted">
           Decoded Daily

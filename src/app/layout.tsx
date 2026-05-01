@@ -23,7 +23,7 @@ const displaySerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "CrickPulse — Cricket, decoded daily.",
+  title: "khelooyar2 — Cricket, decoded daily.",
   description:
     "Live scores, daily match predictions, Dream11 tips, points tables, IPL & WPL coverage, and long-form cricket writing.",
 };

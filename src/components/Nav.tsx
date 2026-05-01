@@ -29,7 +29,7 @@ export function Nav() {
       )}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
-        <Link href="/" aria-label="CrickPulse home">
+        <Link href="/" aria-label="khelooyar2 home">
           <Logo />
         </Link>
 

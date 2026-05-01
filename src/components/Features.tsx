@@ -9,7 +9,7 @@ export function Features() {
   return (
     <section className="relative mx-auto max-w-7xl px-5 py-24 lg:px-8">
       <SectionHeading
-        eyebrow="Why CrickPulse"
+        eyebrow="Why khelooyar2"
         title={
           <>
             Premium cricket coverage,{" "}

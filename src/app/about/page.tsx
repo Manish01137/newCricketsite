@@ -9,7 +9,7 @@ import { Mail, MapPin } from "lucide-react";
 import { WhatsAppIcon } from "@/components/WhatsAppIcon";
 
 export const metadata: Metadata = {
-  title: "About — CrickPulse",
+  title: "About — khelooyar2",
   description:
     "A cricket publication built for people who read the game. No paywalls, no promo funnels, no 'sure shot' nonsense.",
 };
@@ -25,7 +25,7 @@ export default function AboutPage() {
             <span className="italic text-[var(--amber)]">not a funnel.</span>
           </>
         }
-        description="We started CrickPulse because every other cricket site we opened was trying to sell us something. This one isn't."
+        description="We started khelooyar2 because every other cricket site we opened was trying to sell us something. This one isn't."
         image={IMG.night}
       />
 
@@ -123,7 +123,7 @@ export default function AboutPage() {
                   href="#"
                   className="inline-flex items-center gap-2 rounded-full bg-[var(--amber)] px-4 py-2.5 text-sm font-semibold text-black transition hover:bg-[#ffc35a]"
                 >
-                  <Mail className="h-4 w-4" /> pitches@crickpulse.in
+                  <Mail className="h-4 w-4" /> pitches@khelooyar2.in
                 </Link>
                 <a
                   href={waLink(WHATSAPP.pitchMessage)}

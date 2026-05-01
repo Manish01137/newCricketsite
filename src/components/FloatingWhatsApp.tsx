@@ -27,7 +27,7 @@ export function FloatingWhatsApp() {
                   <WhatsAppIcon className="h-5 w-5 text-white" />
                 </span>
                 <div className="leading-tight">
-                  <div className="text-sm font-semibold">CrickPulse on WhatsApp</div>
+                  <div className="text-sm font-semibold">khelooyar2 on WhatsApp</div>
                   <div className="text-[11px] text-white/80">Typically replies in minutes</div>
                 </div>
               </div>

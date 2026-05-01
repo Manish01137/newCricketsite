@@ -4,7 +4,7 @@ import { PointsTable } from "@/components/PointsTable";
 import { IMG } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Points Tables — CrickPulse",
+  title: "Points Tables — khelooyar2",
   description:
     "IPL and WPL standings with NRR, form trends, and playoff cutoff highlighting.",
 };

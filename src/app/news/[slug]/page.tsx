@@ -22,9 +22,9 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const { slug } = await props.params;
   const a = articles.find((x) => x.slug === slug);
-  if (!a) return { title: "Not found — CrickPulse" };
+  if (!a) return { title: "Not found — khelooyar2" };
   return {
-    title: `${a.title} — CrickPulse`,
+    title: `${a.title} — khelooyar2`,
     description: a.dek,
   };
 }
@@ -116,7 +116,7 @@ export default async function ArticlePage(props: PageProps<"/news/[slug]">) {
                   {article.author}
                 </div>
                 <p className="mt-2 text-sm text-text-dim">
-                  Senior cricket writer at CrickPulse. Reach out on any story,
+                  Senior cricket writer at khelooyar2. Reach out on any story,
                   any time.
                 </p>
               </div>

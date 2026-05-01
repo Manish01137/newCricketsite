@@ -41,9 +41,9 @@ export const WHATSAPP = {
   number: "971500000000",
   label: "+971 50 000 0000",
   tipsMessage:
-    "Hi CrickPulse — I'd like to get daily cricket predictions & Dream11 tips on WhatsApp.",
+    "Hi khelooyar2 — I'd like to get daily cricket predictions & Dream11 tips on WhatsApp.",
   pitchMessage:
-    "Hi CrickPulse — I have a story pitch for the editorial team.",
+    "Hi khelooyar2 — I have a story pitch for the editorial team.",
 };
 
 export function waLink(message: string, number: string = WHATSAPP.number) {

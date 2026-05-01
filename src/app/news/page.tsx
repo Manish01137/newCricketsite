@@ -13,7 +13,7 @@ const accent: Record<string, string> = {
 };
 
 export const metadata: Metadata = {
-  title: "News & Analysis — CrickPulse",
+  title: "News & Analysis — khelooyar2",
   description:
     "Match previews, live blogs, auction analysis and long-reads — daily through the season.",
 };
