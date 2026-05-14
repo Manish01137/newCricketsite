@@ -38,8 +38,8 @@ export const IMG = {
 };
 
 export const WHATSAPP = {
-  number: "971500000000",
-  label: "+971 50 000 0000",
+  number: "19207685046",
+  label: "+1 920-768-5046",
   tipsMessage:
     "Hi khelooyar2 — I'd like to get daily cricket predictions & Dream11 tips on WhatsApp.",
   pitchMessage:
