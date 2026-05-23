@@ -1,0 +1,23 @@
+# For Apache / LiteSpeed shared hosting (Hostinger, cPanel, etc.)
+# Force HTTPS and the apex (non-www) hostname so every visitor sees the same
+# cert and avoids "Not private" warnings caused by hitting a hostname the
+# certificate doesn't cover.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # 1. Force HTTPS
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+  # 2. Drop www → apex
+  RewriteCond %{HTTP_HOST} ^www\.khelooyar2\.com$ [NC]
+  RewriteRule ^(.*)$ https://khelooyar2.com/$1 [R=301,L]
+</IfModule>
+
+# HSTS — tell browsers to remember HTTPS for a year, including subdomains.
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

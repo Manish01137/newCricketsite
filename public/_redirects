@@ -1,0 +1,5 @@
+# Netlify edge redirects — these run BEFORE the Next.js plugin.
+# Force apex (khelooyar2.com), force https.
+http://khelooyar2.com/*       https://khelooyar2.com/:splat   301!
+http://www.khelooyar2.com/*   https://khelooyar2.com/:splat   301!
+https://www.khelooyar2.com/*  https://khelooyar2.com/:splat   301!
