@@ -4,6 +4,7 @@ import "./globals.css";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { SITE_URL, SITE_NAME, SITE_TAGLINE, SITE_DESCRIPTION } from "@/lib/site";
 
 const geistSans = Geist({
@@ -68,6 +69,7 @@ export default function RootLayout({
         <Footer />
         <FloatingWhatsApp />
       </body>
+      <GoogleAnalytics />
     </html>
   );
 }

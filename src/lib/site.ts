@@ -8,3 +8,7 @@ export const SITE_NAME = "khelooyar2";
 export const SITE_TAGLINE = "Cricket, decoded daily.";
 export const SITE_DESCRIPTION =
   "Live scores, daily match predictions, Dream11 tips, points tables, IPL & WPL coverage, and long-form cricket writing.";
+
+// Google Analytics measurement ID. Override with NEXT_PUBLIC_GA_ID in env if needed.
+export const GA_MEASUREMENT_ID =
+  process.env.NEXT_PUBLIC_GA_ID ?? "G-TM43TGLJT0";
