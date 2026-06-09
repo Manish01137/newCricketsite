@@ -5,7 +5,13 @@ import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
-import { SITE_URL, SITE_NAME, SITE_TAGLINE, SITE_DESCRIPTION } from "@/lib/site";
+import {
+  SITE_URL,
+  SITE_NAME,
+  SITE_TAGLINE,
+  SITE_DESCRIPTION,
+  GOOGLE_SITE_VERIFICATION,
+} from "@/lib/site";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -53,6 +59,9 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
   },
   referrer: "strict-origin-when-cross-origin",
+  verification: {
+    google: GOOGLE_SITE_VERIFICATION,
+  },
 };
 
 export default function RootLayout({

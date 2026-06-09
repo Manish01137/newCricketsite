@@ -11,4 +11,8 @@ export const SITE_DESCRIPTION =
 
 // Google Analytics measurement ID. Override with NEXT_PUBLIC_GA_ID in env if needed.
 export const GA_MEASUREMENT_ID =
-  process.env.NEXT_PUBLIC_GA_ID ?? "G-TM43TGLJT0";
+  process.env.NEXT_PUBLIC_GA_ID ?? "G-LTYFMT0CWH";
+
+// Google Search Console site verification token.
+export const GOOGLE_SITE_VERIFICATION =
+  "rylPnvt8rggbREo1wnhBIVv96WIwrc4QxoopQ1MMcwc";
